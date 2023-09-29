@@ -1,0 +1,4 @@
+duckdb==0.9.0
+pyarrow==13.0.0
+deltalake==0.11.0
+polars==0.19.5

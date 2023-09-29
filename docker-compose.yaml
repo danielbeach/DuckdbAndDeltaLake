@@ -1,0 +1,7 @@
+version: "3.9"
+services:
+    run:
+      image: "duckdbdelta"
+      volumes:
+        - .:/app
+      command: python3 duckdb_deltalake.py
